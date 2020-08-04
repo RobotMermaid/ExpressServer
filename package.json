@@ -1,0 +1,21 @@
+{
+  "name": "ExpressServer",
+  "version": "0.0.1",
+  "description": "https://www.tutorialspoint.com/expressjs/expressjs_sessions.htm",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "RobotMermaid",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "multer": "^1.4.2",
+    "body-parser": "^1.19.0",
+    "pug": "^3.0.0",
+    "nodemon": "^2.0.4"
+  }
+}
