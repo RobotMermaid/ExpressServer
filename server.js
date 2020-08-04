@@ -101,6 +101,7 @@ app.post('/login', function(req, res){
             if(user.id === req.body.id && user.password === req.body.password){
                 req.session.user = user;
                 console.log("go to protected page now", user.id)
+                // breaks here - trying to reset the headers somewhere
                 res.redirect('/protected_page');
             }
         });
